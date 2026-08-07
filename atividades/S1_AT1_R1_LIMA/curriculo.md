@@ -40,8 +40,8 @@ Desenvolvedora em busca de oportunidades para crescer profissionalmente, aplican
 ## 5. PROJETOS DESENVOLVIDOS
 
 ### Projeto 1: Grand Prix
-- **Descrição:** Resolução de problemas referente as linhas ferroviárias da Empresa Vale
-- **Tecnologias Utilizadas:** JavaScript, AntiGravity, GitHub    
+- **Descrição:** Resolução de problemas referente as linhas ferroviárias da Empresa Vale,
+- **Tecnologias Utilizadas:** JavaScript, AntiGravity, GitHub.    
 - **Resultado:** Participar de um evento desse tamanho me permitiu testar meus limites, pensar fora da caixa e conectar com profissionais incríveis.
 
 ---
