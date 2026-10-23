@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightgrey;
+    color: black;
+}
+
+/* Estilo para a seção de produtos */
+#Produtos {
+    display: flex; /* Adiciona o estilo flexível */
+    flex-wrap: wrap; /* Permite que os produtos se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os produtos horizontalmente */
+    gap: 20px; /* Adiciona espaçamento entre os produtos */
+}
+
+/* Estilo para cada produto individual */
+#Produtos h2,
+#Produtos p { /* Adiciona estilo para os títulos e parágrafos dentro da seção de produtos */
+    color: black;
+    font-size: 16px; /* Define o tamanho da fonte */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior */
+    width: 100%; /* Garante que os elementos ocupem toda a largura disponível */
+    text-align: center;
+}
+
+/* Estilo para os links dentro da seção de produtos */
+.produto { /* Adiciona estilo para cada produto individual */
+    background-color: grey; /* Define a cor de fundo do produto */
+    border: 1px solid #ccc; /* Adiciona uma borda ao redor do produto */
+    border-radius: 10px; /* Adiciona cantos arredondados ao produto */
+    padding: 20px; /* Adiciona espaçamento interno ao produto */
+    width: 300px; /* Define a largura do produto */
+    text-align: center; /* Centraliza o conteúdo do produto */
+}
+
+/* Estilo para as imagens dentro da seção de produtos */
+.produto img { /* Adiciona estilo para as imagens dentro de cada produto */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do produto */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona cantos arredondados à imagem */
+    margin-bottom: 15px; /* Adiciona espaçamento inferior à imagem */
+}
+
+/* Estilo para os títulos dentro da seção de produtos */
+.produto h3 { /* Adiciona estilo para os títulos dentro de cada produto */
+    font-size: 20px; /* Define o tamanho da fonte do título */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior ao título */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+footer {
+    background: lightgrey;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
