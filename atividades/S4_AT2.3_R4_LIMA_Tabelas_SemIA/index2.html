@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para responsividade em dispositivos móveis -->
+        <title>PixelGear eSports Store</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho principal da página -->
+        <h1>PixelGear eSports Store</h1>
+        <p>Eleve seu nível de competitividade com os melhores equipamentos</p>
+    </header>
+
+    <main> <!-- Conteúdo principal da página -->
+        <section id="institucional"> <!-- Seção institucional da loja -->
+            <h2>Sobre a PixelGear</h2>
+
+            <article> <!-- Artigo sobre o objetivo da loja -->
+                <h3>Nosso objetivo</h3>
+                <p>Oferecer os melhores produtos e serviços para os interessados em eSports</p>
+            </article>
+
+            <article>
+                <h3>Visão da Loja</h3>
+                <p>Ser a referência em equipamentos para o cenário de eSports, tendo experiência com qualidade e atendimento</p>
+            </article>
+
+            <article>
+                <h3>Nossos Valores</h3>
+                <p>Compromisso com excelência, inovação e satisfação do cliente</p>
+            </article>
+        </section>
+
+        <section id="Produtos"> <!-- Seção de catálogo de produtos -->
+            <h2 class="titulo-catalogo">Catálogo de Produtos</h2> <!-- Título do catálogo de produtos -->
+            <p>Confira os equipamentos principais</p> <!-- Parágrafo introdutório do catálogo de produtos -->
+
+            <article class="produto"> <!-- Artigo sobre o PC Gamer Pixel Pro -->
+                <h3>PC Gamer Pixel Pro</h3>
+                <img src="images/pc.jpg" alt="Imagem do PC Gamer" width="300">
+                <p>Configuração de alto desempenho para jogos competitivos</p>
+                <p>Preço: R$ 5.999,99</p>
+                <p>Garantia e Suporte</p>
+            </article>
+
+
+            <article class="produto">
+                <h3>Teclado Mecânico</h3>
+                <img src="images/teclado.webp" alt="Imagem do Teclado Mecânico" width="300">
+                <p>Teclado ultrarrápido, iluminado e de alta qualidade</p>
+                <p>Preço: R$ 299,99</p>
+                <p>Garantia e Suporte</p>
+                <p>Compatível com: Windows, macOS, Linux</p>
+
+
+            </article>
+
+             <article class="produto">
+                <h3>Mouse Gamer</h3>
+                <img src="images/mouse.jpeg" alt="Imagem do Mouse Gamer" width="300">
+                <p>Mouse com alta precisão e personalização</p>
+                <p>Preço: R$ 199,99</p>
+                <p>Garantia e Suporte</p>
+                <p>Compatível com: Windows, macOS, Linux</p>
+                </article>
+
+    
+            <article class="produto">
+                <h3>Fone de Ouvido</h3>
+                <img src="images/fone.jpg" alt="Imagem do Fone de Ouvido" width="300">
+                <p>Fone de ouvido com cancelamento de ruído</p>
+                <p>Preço: R$ 149,99</p>
+                <p>Garantia e Suporte</p>
+                <p>Compatível com: Windows, macOS, Linux</p>
+                </article>
+
+        </section>
+
+        <section class="promocoes"> <!-- Seção de promoções da loja -->
+            <h1>Tabela comparativa de produtos em promoção</h1>
+
+            <table class="tabela-produtos" border="1" cellpadding="6" cellspacing="0"> <!-- Tabela de produtos em promoção -->
+                <!--border = "1" significa que a tabela terá bordas visíveis -->
+                <!-- cellpadding = "6" significa que haverá um espaçamento de 6 pixels entre as células -->
+                <!-- cellspacing = "0" significa que não haverá espaçamento entre as células -->
+                <thead> <!-- Cabeçalho da tabela -->
+                    <tr> <!-- Linha do cabeçalho da tabela -->
+                        <th>Modelo</th> <!-- Coluna do cabeçalho da tabela -->
+                        <th>Processador</th>
+                        <th>Placa de vídeo</th>
+                        <th>Memória RAM</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Teclado Mecânico</td> <!-- Coluna da tabela -->
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>R$ 250,00</td>
+                    </tr>
+                    <tr>
+                        <td>PC Gamer Pixel Pro</td> <!-- Coluna da tabela -->
+                        <td>AMD Ryzen 9 5900X</td>
+                        <td>NVIDIA GeForce RTX 3090</td>
+                        <td>64GB DDR4</td>
+                        <td>R$ 4.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Mouse Gamer</td> <!-- Coluna da tabela -->
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                    <tr>
+                        <td>Fone de Ouvido Gamer</td>
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>Não aplicável</td>
+                        <td>R$ 100,00</td>
+                    </tr>
+                </tbody> <!-- Corpo da tabela -->
+            </table>
+        </section>
+
+        <section class="contato"> <!-- Seção de contato da loja -->
+            <form class="formulario" action="#" method="post"> <!-- Formulário de contato da loja -->
+                <fieldset> <!-- Agrupamento de campos do formulário -->
+                    <legend><strong>Dados</strong></legend> <!-- Legenda do agrupamento de campos do formulário -->
+
+                    <p>
+                        <label for="gpu">Produtos:</label><br> <!-- Label (significa "rótulo") do campo de seleção de produtos -->
+                        <select id="gpu" name="gpu" required> <!-- Campo de seleção de produtos -->
+                            <option value="">-- Selecione um produto --</option> <!-- Opção padrão do campo de seleção de produtos -->
+                            <option value="pc-gamer">PC Gamer Pixel Pro</option>
+                            <option value="teclado">Teclado Mecânico</option>
+                            <option value="mouse">Mouse Gamer</option>
+                            <option value="fone">Fone de Ouvido Gamer</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <strong>Objetivo Principal da Máquina:</strong><br> <!-- Strong (significa "negrito") -->
+                        <input type="radio" id="jogos" name="objetivo" value="jogos" checked> <!-- Essa linha significa - input do tipo radio; -->
+                        <label for="jogos">Competição / Jogos eSports</label><br>
+
+                        <input type="radio" id="streaming" name="objetivo" value="streaming">
+                        <label for="streaming">Streaming / Conteúdo Gamer</label><br>
+
+                        <input type="radio" id="trabalho" name="objetivo" value="trabalho">
+                        <label for="trabalho">Setup de Trabalho + Gaming</label>
+                    </p>
+
+                    <p>
+                        <strong>Serviços e Adicionais Desejados:</strong><br>
+                        <input type="checkbox" id="rgb" name="adicionais[]" value="rgb_extra">
+                        <label for="rgb">Fitas de LED RGB Adicionais no Gabinete</label><br>
+
+                        <input type="checkbox" id="overclock" name="adicionais[]" value="overclock">
+                        <label for="overclock">Perfil de Overclock Configurado na BIOS</label><br>
+
+                        <input type="checkbox" id="garantia_estendida" name="adicionais[]" value="garantia3anos">
+                        <label for="garantia_estendida">Garantia Estendida de 3 Anos PixelGear Care</label>
+                    </p>
+
+                    <p>
+                        <label for="observacoes">Observações ou Dúvidas Específicas:</label><br>
+                        <textarea id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Descreva jogos específicos que pretende rodar ou preferências de marcas..."></textarea>
+                    </p>
+
+                    <p>
+                        <label for="foto_referencia">Anexar Print ou Foto do Setup de Referência:</label><br>
+                        <input type="file" id="foto_referencia" name="foto_referencia" accept="image/*">
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="button">Enviar</button>
+                </p>
+            </form>
+        </section>
+
+        <footer>
+            <p>PixelGear eSports Store — Eleve seu setup, jogue melhor.</p>
+        </footer>
+    </main>
+</body>
+</html>
