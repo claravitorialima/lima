@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para responsividade em dispositivos móveis -->
+        <meta name="description" content="PixelGear eSports Store — equipamentos premium para gamers e streamers."> <!-- Descreve o conteúdo da página para buscadores e acessibilidade -->
+        <title>PixelGear eSports Store</title> <!-- Título exibido na aba do navegador -->
+        <link rel="stylesheet" href="style.css"> <!-- Conecta a página ao arquivo CSS responsável pela aparência -->
+</head>
+<body>
+    <header class="topo reveal"> <!-- Cabeçalho do site, com destaque visual e animação de entrada -->
+        <nav class="menu" aria-label="Menu principal"> <!-- Menu de navegação principal da página -->
+            <ul class="menu-list"> <!-- Lista de itens do menu -->
+                <li><a href="#institucional">Sobre</a></li> <!-- Link para a seção institucional -->
+                <li><a href="#Produtos">Produtos</a></li> <!-- Link para a seção de catálogo -->
+                <li><a href="#promocoes">Promoções</a></li> <!-- Link para a seção de ofertas -->
+                <li><a href="#contato">Contato</a></li> <!-- Link para a seção de formulário -->
+            </ul>
+        </nav>
+
+        <div class="topo__inner"> <!-- Container do hero/header com nome da loja e slogan -->
+            <span class="brand">PixelGear</span> <!-- Marca visual da loja -->
+            <h1>PixelGear eSports Store</h1> <!-- Título principal da página -->
+            <p>Eleve seu nível de competitividade com os melhores equipamentos</p> <!-- Frase de apresentação -->
+        </div>
+    </header>
+
+    <main> <!-- Conteúdo principal da página -->
+        <section id="institucional" class="reveal"> <!-- Seção que apresenta a história, objetivo e valores da loja -->
+            <div class="section-heading"> <!-- Agrupa o título e o subtítulo da seção -->
+                <span class="eyebrow">Sobre nós</span> <!-- Etiqueta visual da seção -->
+                <h2>Sobre a PixelGear</h2> <!-- Título da seção institucional -->
+            </div>
+
+            <div class="institucional-grid"> <!-- Grade com os artigos informativos -->
+                <article class="info-card"> <!-- Primeiro artigo: objetivo da loja -->
+                    <h3>Nosso objetivo</h3>
+                    <p>Oferecer os melhores produtos e serviços para os interessados em eSports</p>
+                </article>
+
+                <article class="info-card"> <!-- Segundo artigo: visão da loja -->
+                    <h3>Visão da Loja</h3>
+                    <p>Ser a referência em equipamentos para o cenário de eSports, tendo experiência com qualidade e atendimento</p>
+                </article>
+
+                <article class="info-card"> <!-- Terceiro artigo: valores da loja -->
+                    <h3>Nossos Valores</h3>
+                    <p>Compromisso com excelência, inovação e satisfação do cliente</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="Produtos" class="catalogo reveal"> <!-- Seção de catálogo de produtos da loja -->
+            <div class="section-heading"> <!-- Container do título da seção -->
+                <span class="eyebrow">Catálogo</span>
+                <h2 class="titulo-catalogo">Catálogo de Produtos</h2> <!-- Título do catálogo -->
+            </div>
+            <p class="section-subtitle">Confira os equipamentos principais</p> <!-- Texto de introdução ao catálogo -->
+
+            <div class="produtos-grid"> <!-- Grade que organiza os cards de produtos -->
+                <article class="produto reveal"> <!-- Card do produto PC Gamer -->
+                    <h3>PC Gamer Pixel Pro</h3>
+                    <img src="images/pc.jpg" alt="Imagem do PC Gamer" width="300"> <!-- Imagem do produto com descrição alternativa -->
+                    <p>Configuração de alto desempenho para jogos competitivos</p>
+                    <p><strong>Preço:</strong> R$ 5.999,99</p>
+                    <p>Garantia e Suporte</p>
+                </article>
+
+                <article class="produto reveal"> <!-- Card do produto teclado -->
+                    <h3>Teclado Mecânico</h3>
+                    <img src="images/teclado.webp" alt="Imagem do Teclado Mecânico" width="300">
+                    <p>Teclado ultrarrápido, iluminado e de alta qualidade</p>
+                    <p><strong>Preço:</strong> R$ 299,99</p>
+                    <p>Garantia e Suporte</p>
+                    <p>Compatível com: Windows, macOS, Linux</p>
+                </article>
+
+                <article class="produto reveal"> <!-- Card do produto mouse -->
+                    <h3>Mouse Gamer</h3>
+                    <img src="images/mouse.jpeg" alt="Imagem do Mouse Gamer" width="300">
+                    <p>Mouse com alta precisão e personalização</p>
+                    <p><strong>Preço:</strong> R$ 199,99</p>
+                    <p>Garantia e Suporte</p>
+                    <p>Compatível com: Windows, macOS, Linux</p>
+                </article>
+
+                <article class="produto reveal"> <!-- Card do produto fone -->
+                    <h3>Fone de Ouvido</h3>
+                    <img src="images/fone.jpg" alt="Imagem do Fone de Ouvido" width="300">
+                    <p>Fone de ouvido com cancelamento de ruído</p>
+                    <p><strong>Preço:</strong> R$ 149,99</p>
+                    <p>Garantia e Suporte</p>
+                    <p>Compatível com: Windows, macOS, Linux</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="promocoes" class="promocoes reveal"> <!-- Seção com tabela de preços e promoções da loja -->
+            <div class="section-heading">
+                <span class="eyebrow">Ofertas</span>
+                <h2>Tabela comparativa de produtos em promoção</h2>
+            </div>
+
+            <div class="table-wrap"> <!-- Contêiner para melhor responsividade da tabela -->
+                <table class="tabela-produtos" aria-label="Tabela de promoções da loja"> <!-- Tabela que compara produtos em promoção -->
+                    <thead> <!-- Cabeçalho da tabela -->
+                        <tr> <!-- Linha do título das colunas -->
+                            <th>Modelo</th> <!-- Coluna com nome do produto -->
+                            <th>Processador</th> <!-- Coluna com processador -->
+                            <th>Placa de vídeo</th> <!-- Coluna com placa de vídeo -->
+                            <th>Memória RAM</th> <!-- Coluna com quantidade de memória -->
+                            <th>Preço</th> <!-- Coluna com valor do produto -->
+                        </tr>
+                    </thead>
+                    <tbody> <!-- Corpo da tabela com os dados dos produtos -->
+                        <tr>
+                            <td>Teclado Mecânico</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>R$ 250,00</td>
+                        </tr>
+                        <tr>
+                            <td>PC Gamer Pixel Pro</td>
+                            <td>AMD Ryzen 9 5900X</td>
+                            <td>NVIDIA GeForce RTX 3090</td>
+                            <td>64GB DDR4</td>
+                            <td>R$ 4.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Mouse Gamer</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>Fone de Ouvido Gamer</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>Não aplicável</td>
+                            <td>R$ 100,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contato" class="contato reveal"> <!-- Seção de contato e orçamento da loja -->
+            <form class="formulario" action="#" method="post" enctype="multipart/form-data"> <!-- Formulário para coletar dados do cliente e solicitar orçamento -->
+                <fieldset> <!-- Agrupa os dados do cliente em um bloco visual -->
+                    <legend><strong>Dados do cliente</strong></legend> <!-- Título do fieldset -->
+
+                    <div class="campo-grid"> <!-- Grade para organizar os campos do cliente -->
+                        <div class="campo"> <!-- Campo de nome -->
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="campo"> <!-- Campo de e-mail -->
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        <div class="campo"> <!-- Campo de telefone -->
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                        </div>
+
+                        <div class="campo"> <!-- Campo de cidade -->
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset> <!-- Bloco para seleção do produto e preferências -->
+                    <legend><strong>Produtos da loja</strong></legend>
+
+                    <div class="campo"> <!-- Lista de produtos disponíveis -->
+                        <label for="produto">Produto de interesse:</label>
+                        <select id="produto" name="produto" required>
+                            <option value="">-- Selecione um produto --</option>
+                            <option value="pc-gamer">PC Gamer Pixel Pro</option>
+                            <option value="teclado">Teclado Mecânico</option>
+                            <option value="mouse">Mouse Gamer</option>
+                            <option value="fone">Fone de Ouvido Gamer</option>
+                            <option value="acessorios">Acessórios Gamer</option>
+                        </select>
+                    </div>
+
+                    <div class="campo"> <!-- Radio button para definir o objetivo do cliente -->
+                        <p class="label-strong">Objetivo principal da máquina:</p>
+                        <label><input type="radio" name="objetivo" value="jogos" checked> Competição / Jogos eSports</label><br>
+                        <label><input type="radio" name="objetivo" value="streaming"> Streaming / Conteúdo Gamer</label><br>
+                        <label><input type="radio" name="objetivo" value="trabalho"> Setup de Trabalho + Gaming</label>
+                    </div>
+
+                    <div class="campo"> <!-- Checkbox para serviços extras -->
+                        <p class="label-strong">Serviços e adicionais desejados:</p>
+                        <label><input type="checkbox" name="adicionais" value="rgb"> LED RGB adicional</label><br>
+                        <label><input type="checkbox" name="adicionais" value="overclock"> Overclock configurado</label><br>
+                        <label><input type="checkbox" name="adicionais" value="garantia"> Garantia estendida</label>
+                    </div>
+                </fieldset>
+
+                <fieldset> <!-- Bloco para personalização, dúvidas e arquivos -->
+                    <legend><strong>Personalização e dúvidas</strong></legend>
+
+                    <div class="campo"> <!-- Área de texto para descrever preferências -->
+                        <label for="personalizacao">Descreva como você quer personalizar o seu PC Gamer ou suas dúvidas sobre serviços/produtos:</label>
+                        <textarea id="personalizacao" name="personalizacao" rows="6" placeholder="Ex.: quero um setup para jogos competitivos, com boa refrigeração, iluminação RGB e monitor de 144Hz..."></textarea>
+                    </div>
+
+                    <div class="campo"> <!-- Campo para anexar imagem ou arquivo -->
+                        <label for="arquivo">Anexar arquivo ou imagem de referência (opcional):</label>
+                        <input type="file" id="arquivo" name="arquivo" accept="image/*,.pdf">
+                    </div>
+                </fieldset>
+
+                <div class="form-actions"> <!-- Botões de ação do formulário -->
+                    <button type="submit">Solicitar orçamento</button> <!-- Botão principal para simular envio -->
+                    <button type="reset" class="btn-secondary">Resetar</button> <!-- Botão que limpa os campos -->
+                    <button type="button" class="btn-tertiary" id="btnArquivo">Enviar arquivo</button> <!-- Botão que abre o seletor de arquivos -->
+                </div>
+
+                <div id="statusMensagem" class="status-message" aria-live="polite"></div> <!-- Mensagem de status exibida na própria página -->
+            </form>
+        </section>
+
+        <footer> <!-- Rodapé final da página -->
+            <p>PixelGear eSports Store — Eleve seu setup, jogue melhor.</p>
+        </footer>
+    </main>
+
+    <script>
+        const revealElements = document.querySelectorAll('.reveal'); // Seleciona todos os elementos que terão animação de entrada
+        const form = document.querySelector('.formulario'); // Busca o formulário principal
+        const arquivoInput = document.getElementById('arquivo'); // Seleciona o input de arquivo
+        const btnArquivo = document.getElementById('btnArquivo'); // Seleciona o botão de envio do arquivo
+        const statusMensagem = document.getElementById('statusMensagem'); // Elemento de mensagem exibido na tela
+
+        const mostrarMensagem = (texto, tipo = 'sucesso') => { // Função para mostrar mensagens no próprio HTML
+            if (!statusMensagem) return;
+            statusMensagem.textContent = texto;
+            statusMensagem.className = 'status-message visible ' + tipo;
+        };
+
+        const revealOnScroll = () => { // Função para ativar a animação ao rolar a página
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            revealElements.forEach((element) => observer.observe(element));
+        };
+
+        if (form) {
+            form.addEventListener('submit', (event) => { // Quando clicar em solicitar orçamento
+                event.preventDefault();
+                form.reset(); // Limpa os campos preenchidos
+                mostrarMensagem('Solicitação enviada com sucesso! Os campos foram limpos.');
+            });
+
+            form.addEventListener('reset', () => { // Quando clicar em resetar
+                mostrarMensagem('Campos resetados.');
+            });
+        }
+
+        if (btnArquivo && arquivoInput) {
+            btnArquivo.addEventListener('click', () => { // Quando clicar em enviar arquivo
+                mostrarMensagem('Selecione o arquivo desejado.', 'info');
+                arquivoInput.click(); // Abre o seletor de arquivos do navegador
+            });
+        }
+
+        revealOnScroll(); // Inicializa a animação ao carregar a página
+    </script>
+</body>
+</html>
